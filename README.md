@@ -1,3 +1,3 @@
 ```bash
-echo "call pathogen#infect()" > .vimrc
+echo "call pathogen#infect()" > ~/.vimrc
 ```
