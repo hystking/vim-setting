@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/nakayama-yuhei/Codes/grunt-templates/rich/grunt/src/jade/section'
+let g:netrw_dirhist_2='/Users/nakayama-yuhei/Works/onepiece/git/grunt/src/jade/section'
+let g:netrw_dirhist_3='/Users/nakayama-yuhei/Works/onepiece/git/grunt/src/sass/section'
+let g:netrw_dirhist_4='/Users/nakayama-yuhei/Works/onepiece/git/grunt/src/jade'
+let g:netrw_dirhist_5='/Users/nakayama-yuhei/.vim'
+let g:netrw_dirhist_6='/Users/nakayama-yuhei/.vim/bundle'
+let g:netrw_dirhist_7='/Users/nakayama-yuhei/.vim/bundle/mine'
+let g:netrw_dirhist_8='/Users/nakayama-yuhei/.vim/bundle/mine/plugin'

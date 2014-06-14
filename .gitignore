@@ -1,1 +1,4 @@
 .DS_Store
+autoload
+README.markdown
+CONTRIBUTING.markdown

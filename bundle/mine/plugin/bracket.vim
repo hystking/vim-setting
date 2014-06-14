@@ -1,22 +1,43 @@
 "auto bracket
-:filetype detect
+filetype detect
 
 "common"
 inoremap ( ()<Left>
+inoremap (<Right> (<Right>
+inoremap (<Left> (<Left>
+inoremap (<Up> (<Up>
+inoremap (<Down> (<Down>
 inoremap () ()
 inoremap (<Enter> ()<Left><Enter><Enter><Up><Tab>
 
 inoremap { {}<Left>
+inoremap {<Right> {<Right>
+inoremap {<Left> {<Left>
+inoremap {<Up> {<Up>
+inoremap {<Down> {<Down>
 inoremap {} {}
 inoremap {<Enter> {}<Left><Enter><Enter><Up><Tab>
 
 inoremap [ []<Left>
+inoremap [<Right> [<Right>
+inoremap [<Left> [<Left>
+inoremap [<Up> [<Up>
+inoremap [<Down> [<Down>
 inoremap [] []
 inoremap [<Enter> []<Left><Enter><Enter><Up><Tab>
 
 inoremap " ""<Left>
+inoremap "<Right> "<Right>
+inoremap "<Left> "<Left>
+inoremap "<Up> "<Up>
+inoremap "<Down> "<Down>
 inoremap "" ""
+
 inoremap ' ''<Left>
+inoremap '<Right> '<Right>
+inoremap '<Left> '<Left>
+inoremap '<Up> '<Up>
+inoremap '<Down> '<Down>
 inoremap '' ''
 
 "for html"
@@ -26,12 +47,8 @@ endif
 
 "for js"
 if &ft == "javascript"
-  inoremap /* /**/<Left><Left>
-  inoremap // /**/<Left><Left>
 endif
 
 "for scss"
 if &ft == "scss"
-  inoremap /* /**/<Left><Left>
-  inoremap // /**/<Left><Left>
 endif
