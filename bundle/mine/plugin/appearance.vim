@@ -17,3 +17,5 @@ hi Pmenu ctermbg=0
 hi PmenuSel ctermbg=4
 hi PmenuSbar ctermbg=2
 hi PmenuThumb ctermfg=3
+
+set colorcolumn=80 "80桁教
