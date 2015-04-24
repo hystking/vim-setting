@@ -13,6 +13,7 @@ endif
 "for js"
 if &filetype == "javascript" || &filetype == "coffee"
   let dictTemp=",".dictRoot."javascript.dict"
+  let dictTemp=",".dictRoot."node.dict"
 endif
 
 "for css"
