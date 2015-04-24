@@ -25,5 +25,10 @@ if &filetype == "php"
   let dictTemp=",".dictRoot."php.dict"
 endif
 
+"for ruby"
+if &filetype == "ruby"
+  let dictTemp=",".dictRoot."ruby.dict"
+endif
+
 "output"
 let &dict=dictTemp
