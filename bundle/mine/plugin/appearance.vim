@@ -19,5 +19,5 @@ match ZenkakuSpace /　/" 全角スペースの表示
 "hi Pmenu ctermbg=0
 "hi PmenuSel ctermbg=4
 "hi PmenuSbar ctermbg=2
-""hi PmenuThumb ctermfg=3
+"hi PmenuThumb ctermfg=3
 
