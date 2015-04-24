@@ -7,16 +7,16 @@ let dictTemp=""
 let dictRoot="~/.vim/bundle/mine/dict/"
 
 "for html"
-if &filetype == "html"
+if &filetype == "html" || &filetype == "jade"
 endif
 
 "for js"
-if &filetype == "javascript"
+if &filetype == "javascript" || &filetype == "coffee"
   let dictTemp=",".dictRoot."javascript.dict"
 endif
 
-"for scss"
-if &filetype == "scss"
+"for css"
+if &filetype == "scss" || &filetype == "stylus" || &filetype == "sass" || &filetype == "css"
   let dictTemp=",".dictRoot."css.dict"
 endif
 
