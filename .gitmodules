@@ -13,6 +13,6 @@
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus
-[submodule "bundle/bundle/editorconfig-vim"]
-	path = bundle/bundle/editorconfig-vim
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
