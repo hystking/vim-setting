@@ -52,3 +52,8 @@ endif
 "for scss"
 if &ft == "scss"
 endif
+
+"for ruby"
+if &ft == "ruby"
+  inoremap end end
+endif
