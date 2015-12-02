@@ -13,9 +13,6 @@
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus
-[submodule "bundle/editorconfig-vim"]
-	path = bundle/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
