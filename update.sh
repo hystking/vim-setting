@@ -1,5 +1,6 @@
 DICT_DIR=bundle/mine/dict
 
+git submodule foreach git pull origin master
 curl https://raw.githubusercontent.com/asins/vim-dict/master/dict/css.dic > $DICT_DIR/css.dict
 curl https://raw.githubusercontent.com/asins/vim-dict/master/dict/javascript.dic > $DICT_DIR/javascript.dict
 curl https://raw.githubusercontent.com/asins/vim-dict/master/dict/node.dic > $DICT_DIR/node.dict
