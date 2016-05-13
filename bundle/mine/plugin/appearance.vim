@@ -1,7 +1,6 @@
 "appearance settings"
 
 syntax on "シンタックスハイライトを有効にする
-set nobackup "バックアップファイルを作らない設定にする
 set encoding=utf-8 "デフォルトの文字コード
 set autoindent "オートインデントする
 set number "行番号を表示する
