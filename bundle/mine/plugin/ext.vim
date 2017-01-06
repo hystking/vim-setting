@@ -5,3 +5,5 @@
 au BufNewFile,BufRead *.json setf javascript
 au BufNewFile,BufRead *.jsx setf javascript
 au BufNewFile,BufRead *.es6 setf javascript
+au BufNewFile,BufRead *.css set filetype=scss.css
+au BufNewFile,BufRead *.slim set filetype=pug
