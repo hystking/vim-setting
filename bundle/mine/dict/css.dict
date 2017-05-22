@@ -1,4 +1,4 @@
-:above-level
+absolute
 accelerator
 accesskey
 :active
@@ -218,7 +218,6 @@ device-pixel-ratio @?
 device-width @?
 :dir()
 direction
-:disabled
 display
 display-box
 display-extras
