@@ -1,4 +1,5 @@
 absolute
+:above-level
 accelerator
 accesskey
 :active
@@ -218,6 +219,7 @@ device-pixel-ratio @?
 device-width @?
 :dir()
 direction
+:disabled
 display
 display-box
 display-extras
@@ -962,6 +964,7 @@ voice-volume
 volume
 vw
 white-space
+widows
 width
 :window-inactive
 windows-classic
