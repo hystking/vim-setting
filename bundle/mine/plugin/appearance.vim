@@ -11,6 +11,8 @@ set title "編集中のファイル名を表示する
 set tabstop=4 "タブ文字数を4にする
 set colorcolumn=80 "80桁教
 set backspace=indent,eol,start "バックスペースを有効に
+set list
+set listchars=trail:X
 
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
 match ZenkakuSpace /　/" 全角スペースの表示
