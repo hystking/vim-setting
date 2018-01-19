@@ -1,5 +1,5 @@
 let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md Prettier
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx Prettier
 
 " single quotes over double quotes
 let g:prettier#config#single_quote = 'true'
